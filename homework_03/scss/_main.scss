@@ -1,7 +1,7 @@
 body{
 	background-color: $bgcolor;
 	color: $bodycolor;
-
+}
 	a:link {
   color:$alink; 
 }
@@ -54,8 +54,22 @@ caption {
 }
 
 table{
+	border-collapse: collapse;
 	line-height: 30px;
+	tr{
+	th{
+	&:nth-child(1){
+		border-right: 1px solid white;
+	}
+	&:nth-child(2){
+		border-right: 1px solid white;
+	}	
+	}	
+	border-bottom: 2px solid $thbg;	
+	}
+
 }
+
 th{
 text-transform: uppercase;
 background: $thbg;
@@ -91,4 +105,7 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+
+.feed p{
+	color:$divp;
 }
