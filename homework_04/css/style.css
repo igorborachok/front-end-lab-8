@@ -195,7 +195,7 @@ button{
 	color: #ffffff;
 	background: #343638;
 	width: 170px;
-	height: 60px;
+	height: 58px;
 	border: none;
 }
 button:focus {
@@ -204,7 +204,7 @@ outline: none;
 
 input{
 	width: 405px;
-	height: 55px;
+	height: 54px;
 	border: 1px solid #343638;
 	margin-right: -8px;
 	padding-left: 25px;
