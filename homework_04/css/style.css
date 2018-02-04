@@ -182,6 +182,7 @@ font-size: 95px;
 }
 #subc{
 	margin-top:100px;
+	min-width: 600px;
 }
 .subwindow {
 	background-color: #ffffff;
