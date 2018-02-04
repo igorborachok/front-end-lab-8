@@ -1,0 +1,278 @@
+body{
+font-family:'Open Sans',Helvetica,Arial,sans-serif;
+padding: 0;
+margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	 background-image: url(../img/apples.jpg);
+	 background-repeat: no-repeat;
+	 background-position: center top; 
+	 background-size: cover;
+	 width: 100%;
+	 height: 740px;
+}
+
+.container{
+	margin: 0 auto;
+    max-width: 1200px;
+}
+.bg {
+	background-color: #f3f3f3;
+}
+.hp {
+	padding-bottom: 100px;
+}
+.headname {
+	letter-spacing: 0.3em;
+	margin-top: 30px;
+	float: left;
+	color: #ffffff;
+	margin-left: 5%;
+
+}
+
+ .main-nav{
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: 5%;
+
+ }
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+ .main-nav ul li{
+ 	float: left;
+ 	list-style-type: none;
+ 	display: block;
+ 	margin-left: 60px;
+
+
+ }
+ .main-nav ul li a {
+ 	color: #ffffff;
+ 	text-decoration: none;
+
+ }
+ 
+.nav-link a:hover{
+	padding: 20px;
+	border-bottom: 3px solid #b7c8d9;
+}
+
+
+ .logo{
+ 	text-align: center;
+ 	padding-top: 250px;
+ 	color: #ffffff;
+ }
+#laterspace{
+		letter-spacing: 0.3em;
+		font-size: 50px;
+}
+h1{
+	margin: 0;
+	font-size: 55px;
+}
+#ampersand {
+font-size: 95px;	
+}
+.sience {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.button {
+	display: block;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	background: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	width:250px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 175px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.col{
+	width: 50%;
+    text-align: justify;
+}
+.col p {
+    font-size: 12px;
+}
+
+#lorem {
+	font-size: 19px;
+	text-align: left;
+
+}
+
+.title {
+	font-size: 19px;
+	text-align: center;
+	/*margin-top: 50px;*/
+	padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.picture1{
+	background-image:linear-gradient(to top, gray 1%, transparent 35%), url(../img/sample.jpg);
+	height: 300px;
+	width: 770px;
+	margin: 15px;
+
+}
+.picture2{
+	background-image: linear-gradient(to top, gray 1%, transparent 35%), url(../img/sample2.jpg);
+	height: 300px;
+	width: 370px;
+	margin: 15px;
+}
+.picture3{
+	background-image:linear-gradient(to top, gray 1%, transparent 35%), url(../img/sample3.jpg);
+	height: 300px;
+	width: 770px;
+	margin: 15px;
+}
+
+.picblock{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likebutton{
+	display: block;
+	text-decoration: none;
+	border: 2px solid #ffffff;
+	background: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	width:70px;
+	padding: 5px 0;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.photodes p{
+	display: block;
+	color: #ffffff; 
+	font-size: 16px;
+	margin-top: 200px;
+	margin-left: 30px;
+}
+#subc{
+	margin-top:100px;
+}
+.subwindow {
+	background-color: #ffffff;
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+button{
+	color: #ffffff;
+	background: #343638;
+	width: 170px;
+	height: 60px;
+	border: none;
+}
+button:focus {
+outline: none;
+}
+
+input{
+	width: 405px;
+	height: 55px;
+	border: 1px solid #343638;
+	margin-right: -8px;
+	padding-left: 25px;
+}
+input:focus {
+outline: none;
+}
+#subc input::placeholder{
+	color:black;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #aaaaaa;
+}
+
+.footer-info h3 {
+	color:black;
+}
+
+.footer-info input {
+	width: 145px;
+}
+
+.footer-info button {
+	width: 100px;
+}
+
+.footer-item {
+	width: 40%;
+    text-align: justify;
+    margin: 0 30px;
+}
+
+.footer-item:nth-child(4) {
+	width: 55%;
+	min-width: 280px;
+}
+
+.footer-nav{
+ 	float: right;
+ 	margin-right: 5%;
+
+ }
+ .footer-nav ul li{
+ 	float: left;
+ 	list-style-type: none;
+ 	display: block;
+ 	margin-left: 60px;
+
+
+ }
+ .footer-nav ul li a {
+ 	color:black;
+ 	text-decoration: none;
+
+ }
+ .author {
+ 	float: left;
+ 	color: #aaaaaa;
+ }
+
+ .last	{
+ 	padding-top: 40px;
+    padding-bottom: 40px;
+ 	border-top: 1px solid #f3f3f3;
+ }
