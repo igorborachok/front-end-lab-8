@@ -1,6 +1,6 @@
-var a = parseFloat (prompt ("number one",));
-var b = parseFloat (prompt ("number two",));
-var c = parseFloat (prompt ("tnumber three",));
+var a = Number (prompt ("number one",));
+var b = Number (prompt ("number two",));
+var c = Number (prompt ("tnumber three",));
 
 var p = (a + b + c)/2;
 

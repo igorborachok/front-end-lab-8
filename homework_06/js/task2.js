@@ -1,5 +1,5 @@
-var euro = parseFloat (prompt ("enter euro",));
-var usd = parseFloat (prompt ("enter usd",));
+var euro = Number (prompt ("enter euro",));
+var usd = Number (prompt ("enter usd",));
 var uahtoeuro = 33.23;
 var uahtousd = 27.12;
 var eurotousd = uahtoeuro/uahtousd;
